@@ -17,11 +17,11 @@ module.exports = class StreamClient {
 
 	// configures and opens a Chrome web browser
 	async init() {
-		debug('Initializing StreamClient...');
+		debug('Initialising...');
 		const chromeCapabilities = Webdriver.Capabilities.chrome();
 		await chromeCapabilities.set('goog:chromeOptions', { args: ['--start-maximized'] });
 		this.webdriver = await new Webdriver.Builder().forBrowser('chrome').withCapabilities(chromeCapabilities).build();
-		debug('StreamClient initialized.');
+		debug('Initialized.');
 	}
 
 	async loadStream(url) {
@@ -64,7 +64,6 @@ module.exports = class StreamClient {
 	async takeScreenshot() {
 		debug('Taking a screenshot...');
 		const imageBuffer = await this.webdriver.takeScreenshot();
-		debug('Screenshot captured.');
 		return imageBuffer;
 	}
 

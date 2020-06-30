@@ -3,12 +3,14 @@
 	"version": "1.0.0",
 	"main": "src/app.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "node ./src/app.js"
 	},
 	"author": "Michael Fitzhavey",
 	"license": "ISC",
 	"dependencies": {
+		"axios": "^0.19.2",
 		"debug": "^4.1.1",
+		"parse": "^2.13.0",
 		"selenium-webdriver": "^4.0.0-alpha.7"
 	},
 	"devDependencies": {
