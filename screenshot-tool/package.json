@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.709.0",
+    "debug": "^4.1.1",
     "screenshot-desktop": "^1.12.1"
   }
 }
