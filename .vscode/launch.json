@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run screenshot-tool",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\screenshot-tool\\src\\app.js",
+            "env": {
+                "S3_ACCESSKEY": "AKIAI7OZYUZKBD43A22A",
+                "S3_SECRETACCESSKEY": "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"
+            }
+        }
+    ]
+}
