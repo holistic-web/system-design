@@ -12,6 +12,7 @@
     "aws-sdk": "^2.709.0",
     "debug": "^4.1.1",
     "pusher": "^3.0.1",
-    "screenshot-desktop": "^1.12.1"
+    "screenshot-desktop": "^1.12.1",
+    "uuid": "^8.2.0"
   }
 }
