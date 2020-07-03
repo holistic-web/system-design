@@ -1,19 +1,19 @@
 {
-  "name": "windows-10-screenshot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node ./src/app.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "aws-sdk": "^2.709.0",
-    "debug": "^4.1.1",
-    "dotenv": "^8.2.0",
-    "pusher": "^3.0.1",
-    "screenshot-desktop": "^1.12.1",
-    "uuid": "^8.2.0"
-  }
+    "name": "windows-10-screenshot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node ./src/app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.709.0",
+        "debug": "^4.1.1",
+        "dotenv": "^8.2.0",
+        "pusher": "^3.0.1",
+        "screenshot-desktop": "^1.12.1",
+        "uuid": "^8.2.0"
+    }
 }
