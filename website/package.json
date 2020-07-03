@@ -10,6 +10,7 @@
 	"dependencies": {
 		"core-js": "^3.6.5",
 		"parse": "^2.13.0",
+		"pusher": "^3.0.1",
 		"vue": "^2.6.11"
 	},
 	"devDependencies": {
