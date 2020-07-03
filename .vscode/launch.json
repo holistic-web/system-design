@@ -8,13 +8,15 @@
             "type": "node",
             "request": "launch",
             "name": "Run screenshot-tool",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
+            "skipFiles": ["<node_internals>/**"],
             "program": "${workspaceFolder}\\screenshot-tool\\src\\app.js",
             "env": {
+                "DEBUG": "*",
                 "S3_ACCESSKEY": "AKIAI7OZYUZKBD43A22A",
-                "S3_SECRETACCESSKEY": "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"
+                "S3_SECRETACCESSKEY": "bVY5UIc52F48I4/anrAL6tx3PlkKL/TBMJy3ULms",
+                "PUSHER_APPID": "1029661",
+                "PUSHER_KEY": "cfa402a8ba9ab9d38c93",
+                "PUSHER_SECRET": "09a70a855ed97bf8a9f2"
             }
         }
     ]
