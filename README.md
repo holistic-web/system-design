@@ -1,23 +1,27 @@
 # System Design Website
 
-A tool to capture screenshots from a given livestream and have these shown on a static website. These images will update live in front of the user every 5 seconds. The screenshots are taken with the npm screenshot tool, stored in AWS S3 with Pusher notifications being sent to tell the site to update.
+A tool to capture screenshots from a given livestream and have these shown on a static website. These images will update live in front of the user every 5 seconds. The screenshots are taken with the npm screenshot tool, stored in AWS S3 with Pusher notifications being sent telling the site to update the image.
 
 ## Using this tool
 
-1. Download Node js from https://nodejs.org/en/download/
+### 1. Install Node js from https://nodejs.org/en/download/ (if not already installed)
 
-2. Run the installation, clicking through without changing any of the default settings.
+### 2. Download and unzip the code for this project as a ZIP from this page:
 
-3. Download this repository as a ZIP folder using the 'Code' button above and unzip.
+ <img src='.project/assets/download-link.jpg' alt='Download Link' width="400"/>
 
-4. Copy the .env file you have been given. Go to the screenshot-tool inside system-design and paste in the .env file.
+### 3. Place the provided .env file you have been given in the system-design/screenshot-tool folder.
 
-5. Open a terminal. This can be done by running 'Command Prompt' on Windows.
+### 4. Install and run the code using the following steps:
 
-6. Enter the file by typing 'cd ' followed by the location of the screenshot-tool e.g. 'cd C:\example\system-design\screenshot-tool'
+a. Open a terminal. For instructions on how look here: https://www.wikihow.com/Open-Terminal-in-Windows
 
-7. Install dependencies by typing 'npm install'.
+b. Go to the screenshot-tool folder by typing 'cd ' followed by the location of the screenshot-tool e.g. 'cd C:\example\system-design\screenshot-tool'
 
-8. Run the code by typing 'npm run start'.
+c. Install dependencies by typing 'npm install' (you will only have to do this once).
 
-9. A screenshot of your desktop will now be taken every 5 seconds and hosted at the url http://system-design-hosting.s3-website.ap-east-1.amazonaws.com/
+d. Run the code in the terminal by typing 'npm run start'
+
+<img src='.project/assets/terminal-commands.jpg' alt='Terminal Commands' width="400"/>
+
+### 6. A screenshot of your desktop will now be taken every 5 seconds and hosted at the url http://system-design-hosting.s3-website.ap-east-1.amazonaws.com/
