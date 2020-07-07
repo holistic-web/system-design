@@ -22,6 +22,6 @@ c. Install dependencies by typing 'npm install' (you will only have to do this o
 
 d. Run the code in the terminal by typing 'npm run start'
 
-<img src='.project/assets/terminal-commands.jpg' alt='Terminal Commands' width="400"/>
+<img src='.project/assets/terminal-commands.jpg' alt='Terminal Commands' width="600"/>
 
 ### 6. A screenshot of your desktop will now be taken every 5 seconds and hosted at the url http://system-design-hosting.s3-website.ap-east-1.amazonaws.com/
